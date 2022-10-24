@@ -40,14 +40,14 @@
                 <Entry x:Name="txtUsername"
                        Placeholder="Name..."
                        FontSize="18"
-                       Margin="8,0,0,0"
+                       Margin="8,0,8,0"
                        Focused="txtUsername_Focused"/>
 
                 <BoxView 
                     Color="Gray"
                     HeightRequest="3"
                     HorizontalOptions="Fill" 
-                    Margin="5,0,0,0"/>
+                    Margin="5,0,5,0"/>
             </VerticalStackLayout>
 
             <VerticalStackLayout Padding="10">
@@ -59,7 +59,7 @@
 
                 <Entry x:Name="txtPassword"
                        Placeholder="Password..."
-                       Margin="8,0,0,0"
+                       Margin="8,0,8,0"
                        FontSize="18"
                        IsPassword="True"
                        Focused="txtUsername_Focused"/>
@@ -68,7 +68,7 @@
                     Color="Gray"
                     HeightRequest="3"
                     HorizontalOptions="Fill" 
-                    Margin="5,0,0,0"/>
+                    Margin="5,0,5,0"/>
         </VerticalStackLayout>
             
             

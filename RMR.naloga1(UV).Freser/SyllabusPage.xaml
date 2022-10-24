@@ -2,13 +2,220 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="RMR.naloga1_UV_.Freser.SyllabusPage"
-             Title="SyllabusPage">
-    <VerticalStackLayout>
-        <Label 
-            Text="Welcome to .NET MAUI!"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
+             Title="Syllabus Page">
+    <Grid BackgroundColor="#006385">
 
+        <Grid.RowDefinitions>
+            <RowDefinition Height="3*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="2*"/>
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="2*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
         
-    </VerticalStackLayout>
+        <Label 
+            Text="3. letnik"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center"
+            Grid.ColumnSpan="2"
+            FontSize="18"
+            TextColor="White"/>
+
+        <Label 
+            Text="Zimski"
+            VerticalOptions="End"
+            HorizontalOptions="Center"
+            Grid.Row="1"
+            Grid.ColumnSpan="2"
+            FontSize="18"
+            TextColor="White"/>
+        <Label 
+            Text="Predmet"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center"
+            Grid.Row="2"
+            FontSize="20"
+            FontAttributes="Bold"
+            TextColor="White"/>
+        <Label 
+            Text="Upravljanje IKT"
+            VerticalOptions="Center" 
+            HorizontalOptions="Start"
+            Margin="10,0,0,0"
+            Grid.Row="3"
+            FontSize="18"
+            TextColor="White"/>
+        <Label 
+            Text="Razvoj mobilnih rešitev"
+            VerticalOptions="Center" 
+            HorizontalOptions="Start"
+            Margin="10,0,0,0"
+            Grid.Row="4"
+            FontSize="18"
+            TextColor="White"/>
+        <Label 
+            Text="Razvoj informacijskih storitev"
+            VerticalOptions="Center" 
+            HorizontalOptions="Start"
+            Margin="10,0,0,0"
+            Grid.Row="5"
+            FontSize="18"
+            TextColor="White"/>
+        <Label 
+            Text="Portali in sistemi znanja"
+            VerticalOptions="Center" 
+            HorizontalOptions="Start"
+            Margin="10,0,0,0"
+            Grid.Row="6"
+            FontSize="18"
+            TextColor="White"/>
+        <Label 
+            Text="ECTS"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center"
+            Grid.Row="2"
+            Grid.Column="1"
+            FontAttributes="Bold"
+            FontSize="20"
+            TextColor="White"/>
+        <Label 
+            Text="5"
+            VerticalOptions="Center" 
+            HorizontalOptions="End"
+            Margin="0,0,40,0"
+            Grid.Row="3"
+            Grid.Column="1"
+            FontSize="18"
+            TextColor="White"/>
+        <Label 
+            Text="5"
+            VerticalOptions="Center" 
+            HorizontalOptions="End"
+            Margin="0,0,40,0"
+            Grid.Row="4"
+            Grid.Column="1"
+            FontSize="18"
+            TextColor="White"/>
+        <Label 
+            Text="5"
+            VerticalOptions="Center" 
+            HorizontalOptions="End"
+            Margin="0,0,40,0"
+            Grid.Row="4"
+            Grid.Column="1"
+            FontSize="18"
+            TextColor="White"/>
+        <Label 
+            Text="5"
+            VerticalOptions="Center" 
+            HorizontalOptions="End"
+            Margin="0,0,40,0"
+            Grid.Row="5"
+            Grid.Column="1"
+            FontSize="18"
+            TextColor="White"/>
+        <Label 
+            Text="5"
+            VerticalOptions="Center" 
+            HorizontalOptions="End"
+            Margin="0,0,40,0"
+            Grid.Row="6"
+            Grid.Column="1"
+            FontSize="18"
+            TextColor="White"/>
+        
+        
+        
+        
+        
+        <Label 
+            Text="Letni"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center"
+            Grid.Row="7"
+            Grid.ColumnSpan="2"
+            FontSize="18"
+            TextColor="White"/>
+        <Label 
+            Text="Predmet"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center"
+            Grid.Row="8"
+            FontSize="20"
+            FontAttributes="Bold"
+            TextColor="White"/>
+        <Label 
+            Text="Diplomsko delo"
+            VerticalOptions="Center" 
+            HorizontalOptions="Start"
+            Margin="10,0,0,0"
+            Grid.Row="9"
+            FontSize="18"
+            TextColor="White"/>
+        <Label 
+            Text="Praktično usposabljanje"
+            VerticalOptions="Center" 
+            HorizontalOptions="Start"
+            Margin="10,0,0,0"
+            Grid.Row="10"
+            FontSize="18"
+            TextColor="White"/>
+        <Label 
+            Text="Sociološki in poklicni vidiki"
+            VerticalOptions="Center" 
+            HorizontalOptions="Start"
+            Margin="10,0,0,0"
+            Grid.Row="11"
+            FontSize="18"
+            TextColor="White"/>
+        <Label 
+            Text="ECTS"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center"
+            Grid.Row="8"
+            Grid.Column="1"
+            FontSize="20"
+            FontAttributes="Bold"
+            TextColor="White"/>
+        <Label 
+            Text="10"
+            VerticalOptions="Center" 
+            HorizontalOptions="End"
+            Margin="0,0,40,0"
+            Grid.Row="9"
+            Grid.Column="1"
+            FontSize="18"
+            TextColor="White"/>
+        <Label 
+            Text="15"
+            VerticalOptions="Center" 
+            HorizontalOptions="End"
+            Margin="0,0,40,0"
+            Grid.Row="10"
+            Grid.Column="1"
+            FontSize="18"
+            TextColor="White"/>
+        <Label 
+            Text="5"
+            VerticalOptions="Center" 
+            HorizontalOptions="End"
+            Margin="0,0,40,0"
+            Grid.Row="11"
+            Grid.Column="1"
+            FontSize="18"
+            TextColor="White"/>
+        
+    </Grid>
 </ContentPage>
